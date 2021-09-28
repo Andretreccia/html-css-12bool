@@ -1,11 +1,13 @@
+/* common */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 .container{
-    max-width: 1170px;
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .row{
     width: 100%;
@@ -13,41 +15,50 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-.col-1{
+/* debug */
+main [class^="col"] {
+    background-color: pink;
+    border: 1px solid black;
+    flex-grow: 1;
+    
+    max-width: 100%;
+    height: 200px;
+}
+/* Colonne */
+.col_1{
     width: calc((100% / 12) * 1);
 }
-.col-2{
+.col_2{
     width: calc((100% / 12) * 2);
 }
-.col-3{
+.col_3{
     width: calc((100% / 12) * 3);
 }
-.col-4{
+.col_4{
     width: calc((100% / 12) * 4);
 }
-.col-5{
+.col_5{
     width: calc((100% / 12) * 5);
 }
-.col-6 {
+.col_6 {
     width: calc((100% / 12) * 6);
 }
-.col-7{
+.col_7{
     width: calc((100% / 12) * 7);
 }
-.col-8{
+.col_8{
     width: calc((100% / 12) * 8);
 }
-.col-9{
+.col_9{
     width: calc((100% / 12) * 9);
 }
-.col-10{
+.col_10{
     width: calc((100% / 12) * 10);
 }
-.col-11{
+.col_11{
     width: calc((100% / 12) * 11);
 }
-.col-12{
+.col_12{
     width: calc((100% / 12) * 12);
 }
 /* offset */
@@ -87,3 +98,11 @@
 }
 
 /* Utility */
+
+.bord_blk{
+    border: 1px solid black;
+
+}
+/* background */
+
+/* color */
