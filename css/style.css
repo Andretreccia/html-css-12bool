@@ -19,7 +19,7 @@ p{
     background-color: #FFC0CB;
     border: 1px solid black;
 }
-[class^="col_nest"] {
+.nested {
     background-color: #F07F80;
     border: 1px solid white;
 }
